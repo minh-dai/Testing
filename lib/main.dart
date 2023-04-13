@@ -12,8 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'Test',
-      debugShowCheckedModeBanner: false,
+      title: 'Test Git',
       defaultTransition: Transition.native,
       getPages: AppPages.pages,
     );
