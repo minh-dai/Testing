@@ -7,6 +7,7 @@ class ProductDetailRepository {
   ProductDetailRepository(this.productProvider);
 
   Future<ProductDetailModel> getProductDetail() async {
+    
     final response = await productProvider.getProductDetail();
     if (response.status.hasError) {
       return Future.error(response.statusText!);

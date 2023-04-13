@@ -5,6 +5,7 @@ import 'package:test_fluter/routers/app_routes.dart';
 
 class AppPages {
   static final pages = [
+    
     GetPage(
       name: Routes.initial,
       page: () => const ProductDetailScreen(),

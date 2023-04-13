@@ -8,6 +8,7 @@ part 'product_detail_extra_model.g.dart';
 )
 
 class ProductExtraModel {
+  
   final int id;
   final String name;
   final String min;
